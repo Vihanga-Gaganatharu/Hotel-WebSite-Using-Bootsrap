@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GALADARI</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+
+  <style>
+    .gallery-item {
+      margin-bottom: 20px;
+    }
+    .gallery-item img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+
+
+</head>
+<body>
+  <header class="navbar navbar-expand-lg d-flex position-fixed w-100">
+    <nav id="navbar-example2" class="d-flex w-100 mainNav ms-3 me-3  ">
+      <div class="logo">
+        <h1>GALADARI</h1>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="items collapse navbar-collapse flex-column" id="navbarNavDropdown">
+        <ul id="nav_ul" class="d-flex gap-5  w-100 m-0 nav-pills">
+          <li class="nav-item "><a class="nav-link " href="#homePage">Home</a></li>
+          <li class="nav-item "><a class="nav-link " href="#aboutPage">About</a></li>
+          <li class="nav-item "><a class="nav-link " href="#Packages">Packages</a></li>
+          <li class="nav-item "><a class="nav-link " href="#Gallery">Gallery</a></li>
+          <li class="nav-item "><a class="nav-link " href="#blog">Blog</a></li>
+          <li class="nav-item "><a class="nav-link " href="#comments">Comments</a></li>
+          <li class="nav-item "><a class="nav-link " href="#contact">Contact</a></li>
+        </ul>
+      </div> 
+
+      <div class="collapse navbar-collapse " id="navbarNavDropdown">
+          <button>
+            <a href="#contact">Contact Us</a>
+          </button>
+      
+      </div>
+
+    </nav>
+  </header>
+
+  <div id="mainPane" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+
+  <section id="homePage" class="homePage ms-5 me-5 ">
+     <div class="row">
+      <div class="col pt-5 ">
+        <h1 class="">Your lavish <br>  home away from Home</h1>
+        <p>Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one way or round trip.</p>
+       <div>
+         <a href=""><button>Book Now</button></a>
+        <a href="">
+  <button>
+    <i class="bi bi-calendar"></i>
+  </button>
+</a>
+
+       </div>
+       </div>
+      <div class="col homeimg">
+        <img src="img/homePage.png" alt="">
+      </div>
+     </div>
+  </section>
+
+  <section id="aboutPage" class="aboutPage w-100 h-auto ">
+    <div class="w-100 text-center ">
+      <h1 class="ch1">About Us!</h1>
+      <div class="w-200 d-flex justify-content-center ">
+        <p class="w-50 about-p">Galadari Hotel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one way or round trip.</p>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-around ms-5 me-5 py-5 card-set">
+      
+      <div class="card w-25 text-center p-4 shadow-lg  border-0 rounded-4 ">
+        <div class="w-100 d-flex justify-content-center pt-3 ">
+          <div class="card-img">
+            <img src="img/icons/image.png" alt="">
+          </div>
+        </div>
+        <h2 class="pt-3 ">Parking Area</h2>
+        <p class="pt-3 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus provident nobis reiciendis.</p>
+      </div>
+
+      <div class="card w-25 text-center p-4 shadow-lg  border-0 rounded-4 ">
+        <div class="w-100 d-flex justify-content-center pt-3 ">
+          <div class="card-img">
+            <img src="img/icons/freewifi.png" alt="">
+          </div>
+        </div>
+        <h2 class="pt-3 ">24/7 Service</h2>
+        <p class="pt-3 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus provident nobis reiciendis.</p>
+      </div>
+
+      <div class="card w-25 text-center p-4 shadow-lg  border-0 rounded-4 ">
+        <div class="w-100 d-flex justify-content-center pt-3 ">
+          <div class="card-img">
+            <img src="img/icons/swimming.png" alt="">
+          </div>
+        </div>
+        <h2 class="pt-3 ">Free Breakfast</h2>
+        <p class="pt-3 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus provident nobis reiciendis.</p>
+      </div>
+
+      
+
+    </div>
+  </section>
+
+  <section id="Packages" class="py-5">
+    <div class="container">
+      <h2 class="ch1">Packages</h2>
+      <p class="lead text-center mb-5 ">Discover our luxurious rooms and suites.</p>
+      <div class="row">
+        <!-- Sample Room Card 1 -->
+        <div class="col-md-4 mb-4 ">
+          <div class="card">
+            <img src="img/packages-img/adam-winger-VGs8z60yT2c-unsplash.jpg" class="card-img-top" alt="Room Image">
+            <div class="card-body">
+              <h5 class="card-title">Standard Room</h5>
+              <p class="card-text">Experience comfort in our standard rooms.</p>
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Sample Room Card 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/packages-img/olexandr-ignatov-w72a24brINI-unsplash.jpg" class="card-img-top" alt="Room Image">
+            <div class="card-body">
+              <h5 class="card-title">Deluxe Room</h5>
+              <p class="card-text">Indulge in luxury with our deluxe rooms.</p>
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Sample Room Card 3 -->
+        <div class="col-md-4 mb-4 ">
+          <div class="card">
+            <img src="img/packages-img/sasha-kaunas-67-sOi7mVIk-unsplash.jpg" class="card-img-top" alt="Room Image">
+            <div class="card-body">
+              <h5 class="card-title">Suite</h5>
+              <p class="card-text">Experience ultimate luxury in our suites.</p>
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sample Room Card 4 -->
+
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/packages-img/steven-ungermann-aRT5UCf2MYY-unsplash.jpg" class="card-img-top" alt="Room Image">
+            <div class="card-body">
+              <h5 class="card-title">Deluxe Room</h5>
+              <p class="card-text">Indulge in luxury with our deluxe rooms.</p>
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="Gallery" class="gallery">
+    <div class="container">
+      <h2 class="ch1">Hotel Gallery</h2>
+      <p class="text-center mb-5 ">Lorem ipsum dolor sit amet consectetur.</p>
+      <div class="row">
+        <div class="col-md-4 gallery-item">
+          <img src="img/packages-img/adam-winger-VGs8z60yT2c-unsplash.jpg" alt="Gallery Image 1">
+        </div>
+        <div class="col-md-4 gallery-item">
+          <img src="img/packages-img/olexandr-ignatov-w72a24brINI-unsplash.jpg" alt="Gallery Image 2">
+        </div>
+        <div class="col-md-4 gallery-item">
+          <img src="img/packages-img/sasha-kaunas-67-sOi7mVIk-unsplash.jpg" alt="Gallery Image 3">
+        </div>
+        <div class="col-md-4 gallery-item">
+          <img src="img/packages-img/steven-ungermann-aRT5UCf2MYY-unsplash.jpg" alt="Gallery Image 4">
+        </div>
+        <div class="col-md-4 gallery-item">
+          <img src="img/gallary/j-zeerak-Tkgo0qhNrjQ-unsplash (1).jpg"Gallery Image 5">
+        </div>
+        <div class="col-md-4 gallery-item">
+          <img src="img/gallary/theo-maroulis-7jXvvEMNTkc-unsplash.jpg"Gallery Image 6">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" class="py-5 blog">
+    <div class="container text-center mt-5 ">
+      <h2 class="ch1">Our Blog</h2>
+      <p class="mb-5 ">Lorem ipsum dolor sit amet consectetur.</p>
+      <div class="row">
+        <!-- Sample Blog Post 1 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/blog/kelsey-chance-tAH2cA_BL5g-unsplash.jpg" class="card-img-top" alt="Blog Image">
+            <div class="card-body">
+              <h5 class="card-title">Blog Post Title</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor tristique libero nec fermentum.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Sample Blog Post 2 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/blog/nick-karvounis-wnuHCwLJDqY-unsplash.jpg" class="card-img-top" alt="Blog Image">
+            <div class="card-body">
+              <h5 class="card-title">Blog Post Title</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor tristique libero nec fermentum.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Sample Blog Post 3 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/blog/wang-xi-RTrZvGlvlQc-unsplash.jpg" class="card-img-top" alt="Blog Image">
+            <div class="card-body">
+              <h5 class="card-title">Blog Post Title</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor tristique libero nec fermentum.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="comments" class="m-md-5  comments mb-5 ">
+    <div class="text-center ">
+      <h1 class="ch1"> Peaples Reviews</h1>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    <div class="accordion m-md-5  " id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <img src="img/people/1.png" alt="Image"> Good Customer Service
+          </button> 
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <img src="img/people/2.png" alt="Image"> Qulaity Food
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item mb-5 ">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <img src="img/people/3.png" alt="Image"> Good Location
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <section itemid="contact" class="mt-5 my-5 " id="contact">
+    <div class="container my-5">
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="contact-form">
+            <div class="w-100 text-center mb-md-5 ">
+              <h2 class="ch1">Contact Us</h2>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <form>
+              <div class="mb-3">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="Enter your first name">
+              </div>
+              <div class="mb-3">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Enter your last name">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="e.g. johndoe@gmail.com">
+              </div>
+              <div class="mb-3">
+                <label for="phoneNumber" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" id="phoneNumber" placeholder="+234">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message or Enquiry</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Type something"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="contact-info p-md-5 m-lg-5 ">
+            <!-- Embedded Google Map or any other map service -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.645939136611!2d79.83936567594108!3d6.93285289306709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae259259a6157fb%3A0x8c0cebb288af4419!2sThe%20Kingsbury%20Colombo!5e0!3m2!1sen!2slk!4v1713101371224!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- Contact details -->
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div> 
+
+
+<footer>
+  <div class="row">
+    <div class="col text-center ">
+      <h4>GALADARI</h4>
+      <p>Thank You So Much For <br> Your Valuable Time</p>
+    </div>
+
+    <div class="col text-center ">
+      <h4>Quick Links</h4>
+      <ul class="list-inline ">
+        <li>Home</li>
+        <li>About</li>
+        <li>Packages</li>
+        <li>Gallery</li>
+        <li>Blog</li>
+        <li>Comments</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+
+    <div class="col text-center ">
+      <h4>Follow Us</h4>
+      <ul class="list-inline">
+        <li><i class="bi bi-facebook"></i></li>
+        <li><i class="bi bi-instagram"></i></li>
+        <li><i class="bi bi-twitter"></i></li>
+        <li><i class="bi bi-linkedin"></i></li>
+      </ul>
+    </div>
+
+    <div class="col text-center ">
+      <h4>Contact Us</h4>
+      <p>Travel</p>
+      <p>123, 4th Street, 5th Avenue</p>
+      <p>City, Country</p>
+      <p>1234567890</p>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
